@@ -1,0 +1,9 @@
+<form class="decor" [formGroup]="testAngular">
+  <div class="form-inner">
+    <h3>Send message to server</h3>
+    <div class = "name">
+      <input placeholder="Name" formControlName="name">
+    </div>
+    <button type="submit" value="Order taxi" (click)= onSubmit() >Submit</button>
+  </div>
+</form>
